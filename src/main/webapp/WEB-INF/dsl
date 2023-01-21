@@ -1,0 +1,4 @@
+job('Moin_Test') {
+description('practicing on own')
+label ('maven_job')
+}
