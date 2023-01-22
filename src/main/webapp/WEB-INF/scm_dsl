@@ -1,4 +1,4 @@
-job('learning_dsl_scm) {
+job('learning_dsl_scm') {
 
   description('dsl_lab_session)
   
