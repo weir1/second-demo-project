@@ -4,7 +4,7 @@ job('learning_dsl_scm') {
   
   parameters {
         fileParam('test/upload.zip', 'learning file')
-        choiceParam('OPTION', ['option 1 (default)', 'option 2', 'option 3'], [my name is moin])
+        choiceParam('OPTION', ['option 1 (default)', 'option 2', 'option 3'], 'My name is Moin' )
     }
     scm {
         github('git@github.com:weir1/test.git')
