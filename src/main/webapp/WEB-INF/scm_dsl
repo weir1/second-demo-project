@@ -1,6 +1,6 @@
 job('learning_dsl_scm') {
 
-  description('dsl_lab_session)
+  description('dsl_lab_session')
   
   parameters {
         fileParam('test/upload.zip', 'learning file')
