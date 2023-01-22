@@ -1,0 +1,13 @@
+job('learning_dsl_scm) {
+
+  description('dsl_lab_session)
+  
+  parameters {
+        fileParam('test/upload.zip', 'learning file')
+        choiceParam('OPTION', ['option 1 (default)', 'option 2', 'option 3'])
+    }
+    scm {
+        github('git@github.com:weir1/test.git')
+    }
+    
+    }
